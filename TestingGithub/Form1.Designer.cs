@@ -28,13 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnOne = new System.Windows.Forms.Button();
+            this.btnTwo = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnOne
+            // 
+            this.btnOne.Location = new System.Drawing.Point(12, 12);
+            this.btnOne.Name = "btnOne";
+            this.btnOne.Size = new System.Drawing.Size(134, 75);
+            this.btnOne.TabIndex = 0;
+            this.btnOne.Text = "Testing";
+            this.btnOne.UseVisualStyleBackColor = true;
+            // 
+            // btnTwo
+            // 
+            this.btnTwo.Location = new System.Drawing.Point(320, 13);
+            this.btnTwo.Name = "btnTwo";
+            this.btnTwo.Size = new System.Drawing.Size(144, 74);
+            this.btnTwo.TabIndex = 1;
+            this.btnTwo.Text = "Testing2";
+            this.btnTwo.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTwo);
+            this.Controls.Add(this.btnOne);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnOne;
+        private System.Windows.Forms.Button btnTwo;
     }
 }
 
