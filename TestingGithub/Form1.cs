@@ -16,5 +16,33 @@ namespace TestingGithub
         {
             InitializeComponent();
         }
+
+        int Tomat, Agurk, Estimation;
+
+        private void btnThree_Click(object sender, EventArgs e)
+        {
+            Estimation = Agurk + Tomat;
+            txtBox1.Text = Estimation.ToString();
+
+
+        }
+
+        private void btnTwo_Click(object sender, EventArgs e)
+        {
+            Agurk = 10;
+        }
+
+        private void btnOne_Click(object sender, EventArgs e)
+        {
+            Tomat = 15;
+
+
+        }
+
+
+
+
+
+
     }
 }
