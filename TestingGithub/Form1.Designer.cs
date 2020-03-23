@@ -32,6 +32,8 @@
             this.txtBox1 = new System.Windows.Forms.TextBox();
             this.btnTwo = new System.Windows.Forms.Button();
             this.btnThree = new System.Windows.Forms.Button();
+            this.btnFour = new System.Windows.Forms.Button();
+            this.btnFive = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOne
@@ -46,7 +48,7 @@
             // 
             // txtBox1
             // 
-            this.txtBox1.Location = new System.Drawing.Point(334, 32);
+            this.txtBox1.Location = new System.Drawing.Point(498, 32);
             this.txtBox1.Multiline = true;
             this.txtBox1.Name = "txtBox1";
             this.txtBox1.Size = new System.Drawing.Size(174, 215);
@@ -72,11 +74,33 @@
             this.btnThree.UseVisualStyleBackColor = true;
             this.btnThree.Click += new System.EventHandler(this.btnThree_Click);
             // 
+            // btnFour
+            // 
+            this.btnFour.Location = new System.Drawing.Point(218, 32);
+            this.btnFour.Name = "btnFour";
+            this.btnFour.Size = new System.Drawing.Size(134, 75);
+            this.btnFour.TabIndex = 5;
+            this.btnFour.Text = "Mælk";
+            this.btnFour.UseVisualStyleBackColor = true;
+            this.btnFour.Click += new System.EventHandler(this.btnFour_Click);
+            // 
+            // btnFive
+            // 
+            this.btnFive.Location = new System.Drawing.Point(218, 144);
+            this.btnFive.Name = "btnFive";
+            this.btnFive.Size = new System.Drawing.Size(134, 75);
+            this.btnFive.TabIndex = 6;
+            this.btnFive.Text = "Ost";
+            this.btnFive.UseVisualStyleBackColor = true;
+            this.btnFive.Click += new System.EventHandler(this.btnFive_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFive);
+            this.Controls.Add(this.btnFour);
             this.Controls.Add(this.btnThree);
             this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.txtBox1);
@@ -94,6 +118,8 @@
         private System.Windows.Forms.TextBox txtBox1;
         private System.Windows.Forms.Button btnTwo;
         private System.Windows.Forms.Button btnThree;
+        private System.Windows.Forms.Button btnFour;
+        private System.Windows.Forms.Button btnFive;
     }
 }
 

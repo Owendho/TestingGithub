@@ -17,25 +17,39 @@ namespace TestingGithub
             InitializeComponent();
         }
 
-        int Tomat, Agurk, Estimation;
+        int Tomat, Agurk, Estimation, Mælk, Ost;
+
+        private void btnFive_Click(object sender, EventArgs e)
+        {
+            Ost = 20;
+            txtBox1.Text = "Ost 20 kr.";
+        }
 
         private void btnThree_Click(object sender, EventArgs e)
         {
-            Estimation = Agurk + Tomat;
-            txtBox1.Text = Estimation.ToString();
+            txtBox1.Clear();
+            Estimation = Agurk + Tomat + Ost + Mælk;
+            txtBox1.Text = Estimation.ToString() + " kr.";
 
 
+        }
+
+        private void btnFour_Click(object sender, EventArgs e)
+        {
+            Mælk = 14;
+            txtBox1.Text = "Mælk 14 kr.";
         }
 
         private void btnTwo_Click(object sender, EventArgs e)
         {
             Agurk = 10;
+            txtBox1.Text = "Agurk 10 kr.";
         }
 
         private void btnOne_Click(object sender, EventArgs e)
         {
             Tomat = 15;
-
+            txtBox1.Text = "Tomat 15 kr.";
 
         }
 
