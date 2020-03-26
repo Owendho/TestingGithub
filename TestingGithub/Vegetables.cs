@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace TestingGithub
 {
-    class Milk
+    class Vegetables
     {
+
         public string name;
-        public int size;
-        public float fat;
-        public float price;
-
-
+        public int amount;
+        public int price;
+        
 
     }
 }

@@ -48,7 +48,7 @@
             // 
             // txtBox1
             // 
-            this.txtBox1.Location = new System.Drawing.Point(498, 32);
+            this.txtBox1.Location = new System.Drawing.Point(488, 32);
             this.txtBox1.Multiline = true;
             this.txtBox1.Name = "txtBox1";
             this.txtBox1.Size = new System.Drawing.Size(174, 215);
@@ -66,7 +66,7 @@
             // 
             // btnThree
             // 
-            this.btnThree.Location = new System.Drawing.Point(58, 279);
+            this.btnThree.Location = new System.Drawing.Point(58, 272);
             this.btnThree.Name = "btnThree";
             this.btnThree.Size = new System.Drawing.Size(134, 67);
             this.btnThree.TabIndex = 4;
